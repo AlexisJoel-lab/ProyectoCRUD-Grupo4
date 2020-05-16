@@ -1,0 +1,14 @@
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\bin\Debug\CapaDatos.xml
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\bin\Debug\CapaEntidad.xml
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.vbprojAssemblyReference.cache
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.cache
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.vbproj.CoreCompileInputs.cache
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.vbproj.CopyComplete
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.xml
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.pdb

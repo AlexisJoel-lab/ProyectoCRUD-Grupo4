@@ -1,0 +1,10 @@
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaEntidad\bin\Debug\CapaEntidad.xml
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaEntidad\obj\Debug\CapaEntidad.vbprojAssemblyReference.cache
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaEntidad\obj\Debug\CapaEntidad.Resources.resources
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaEntidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.cache
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaEntidad\obj\Debug\CapaEntidad.vbproj.CoreCompileInputs.cache
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaEntidad\obj\Debug\CapaEntidad.xml
+C:\Users\ALEXIS\source\repos\ProyectoCRUD-Grupo4\CRUD-Grupo4\CapaEntidad\obj\Debug\CapaEntidad.pdb
