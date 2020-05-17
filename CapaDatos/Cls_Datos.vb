@@ -6,7 +6,7 @@ Public Class Cls_Datos
     Private cn As New SqlConnection(ConfigurationManager.ConnectionStrings("").ConnectionString)
 
     'Mostrar tabla
-    'conexion junior
+    'conexion junior2
 
     Public Function D_Listar() As DataTable
         Dim cmd As New SqlCommand("Select * from ", cn)
