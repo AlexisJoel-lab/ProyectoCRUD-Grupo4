@@ -65,8 +65,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CD_Clientes.vb" />
     <Compile Include="CD_Conexion.vb" />
     <Compile Include="CD_Empleados.vb" />
+    <Compile Include="CD_Productos.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

@@ -54,3 +54,17 @@ C:\Users\VENTURA\Documents\GitHub\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDa
 C:\Users\VENTURA\Documents\GitHub\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\VENTURA\Documents\GitHub\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.xml
 C:\Users\VENTURA\Documents\GitHub\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\bin\Debug\CapaDatos.xml
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\bin\Debug\CapaEntidad.xml
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.vbprojAssemblyReference.cache
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.cache
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.vbproj.CoreCompileInputs.cache
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.vbproj.CopyComplete
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.xml
+C:\Users\ALEXIS\Source\Repos\ProyectoCRUD-Grupo4\CapaDatos\obj\Debug\CapaDatos.pdb

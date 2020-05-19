@@ -64,7 +64,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CE_Entidad.vb" />
+    <Compile Include="CE_Clientes.vb" />
+    <Compile Include="CE_Empleados.vb" />
+    <Compile Include="CE_Productos.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

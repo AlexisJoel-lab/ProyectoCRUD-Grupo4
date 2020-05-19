@@ -4,7 +4,7 @@ Imports System.Configuration
 Imports CapaEntidad
 Public Class CD_Conexion
 
-    Private Conexion As SqlConnection = New SqlConnection("Server=DESKTOP-A93F67D\MSSQLSERVER1;DataBase= CursoMVC;Integrated Security=true")
+    Private Conexion As SqlConnection = New SqlConnection("Server=ALEXIS-PC\SQLEXPRESS;DataBase= CursoMVC;Integrated Security=true")
 
     Public Function AbrirConexion() As SqlConnection
         If Conexion.State = ConnectionState.Closed Then

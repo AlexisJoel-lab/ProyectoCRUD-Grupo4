@@ -80,10 +80,22 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmClientes.Designer.vb">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmFormulario.Designer.vb">
       <DependentUpon>FrmFormulario.vb</DependentUpon>
     </Compile>
     <Compile Include="FrmFormulario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductos.Designer.vb">
+      <DependentUpon>frmProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductos.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -107,8 +119,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmClientes.resx">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmFormulario.resx">
       <DependentUpon>FrmFormulario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductos.resx">
+      <DependentUpon>frmProductos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -139,7 +157,11 @@
       <Name>CapaNegocio</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp">
+      <Version>5.12.1</Version>
+    </PackageReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo.png" />
   </ItemGroup>

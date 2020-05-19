@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaPresentacion\\CapaPresentacion.vbproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaDatos\\CapaDatos.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaDatos\\CapaDatos.vbproj",
+        "projectName": "CapaDatos",
+        "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaDatos\\CapaDatos.vbproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaEntidad\\CapaEntidad.vbproj": {
+                "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaEntidad\\CapaEntidad.vbproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaEntidad\\CapaEntidad.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaEntidad\\CapaEntidad.vbproj",
+        "projectName": "CapaEntidad",
+        "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaEntidad\\CapaEntidad.vbproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaNegocio\\CapaNegocio.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaNegocio\\CapaNegocio.vbproj",
+        "projectName": "CapaNegocio",
+        "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaNegocio\\CapaNegocio.vbproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaDatos\\CapaDatos.vbproj": {
+                "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaDatos\\CapaDatos.vbproj"
+              },
+              "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaEntidad\\CapaEntidad.vbproj": {
+                "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaEntidad\\CapaEntidad.vbproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaPresentacion\\CapaPresentacion.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaPresentacion\\CapaPresentacion.vbproj",
+        "projectName": "CapaPresentacion",
+        "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaPresentacion\\CapaPresentacion.vbproj",
+        "packagesPath": "C:\\Users\\ALEXIS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaPresentacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\ALEXIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Paquete _Nuget": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaEntidad\\CapaEntidad.vbproj": {
+                "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaEntidad\\CapaEntidad.vbproj"
+              },
+              "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaNegocio\\CapaNegocio.vbproj": {
+                "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaNegocio\\CapaNegocio.vbproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "FontAwesome.Sharp": {
+              "target": "Package",
+              "version": "[5.12.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

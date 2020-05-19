@@ -22,7 +22,6 @@ Partial Class FrmEmpleados
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnGuardar = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -31,86 +30,107 @@ Partial Class FrmEmpleados
         Me.txtEdad = New System.Windows.Forms.TextBox()
         Me.txtSexo = New System.Windows.Forms.TextBox()
         Me.txtSueldo = New System.Windows.Forms.TextBox()
+        Me.lblTituloEmpl = New System.Windows.Forms.Label()
+        Me.btnGuardar = New FontAwesome.Sharp.IconButton()
         Me.SuspendLayout()
-        '
-        'btnGuardar
-        '
-        Me.btnGuardar.Location = New System.Drawing.Point(129, 281)
-        Me.btnGuardar.Name = "btnGuardar"
-        Me.btnGuardar.Size = New System.Drawing.Size(75, 23)
-        Me.btnGuardar.TabIndex = 1
-        Me.btnGuardar.Text = "Guardar"
-        Me.btnGuardar.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(70, 56)
+        Me.Label1.Location = New System.Drawing.Point(40, 61)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(44, 13)
+        Me.Label1.Size = New System.Drawing.Size(110, 15)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Nombre"
+        Me.Label1.Text = "Nombre y Apellido:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(70, 114)
+        Me.Label2.Location = New System.Drawing.Point(113, 102)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(32, 13)
+        Me.Label2.Size = New System.Drawing.Size(37, 15)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Edad"
+        Me.Label2.Text = "Edad:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(70, 171)
+        Me.Label3.Location = New System.Drawing.Point(115, 143)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(31, 13)
+        Me.Label3.Size = New System.Drawing.Size(35, 15)
         Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Sexo"
+        Me.Label3.Text = "Sexo:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(70, 232)
+        Me.Label4.Location = New System.Drawing.Point(103, 184)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(40, 13)
+        Me.Label4.Size = New System.Drawing.Size(47, 15)
         Me.Label4.TabIndex = 5
-        Me.Label4.Text = "Sueldo"
+        Me.Label4.Text = "Sueldo:"
         '
         'txtNombre
         '
-        Me.txtNombre.Location = New System.Drawing.Point(129, 49)
+        Me.txtNombre.Location = New System.Drawing.Point(172, 57)
         Me.txtNombre.Name = "txtNombre"
-        Me.txtNombre.Size = New System.Drawing.Size(100, 20)
+        Me.txtNombre.Size = New System.Drawing.Size(116, 22)
         Me.txtNombre.TabIndex = 6
         '
         'txtEdad
         '
-        Me.txtEdad.Location = New System.Drawing.Point(129, 107)
+        Me.txtEdad.Location = New System.Drawing.Point(172, 98)
         Me.txtEdad.Name = "txtEdad"
-        Me.txtEdad.Size = New System.Drawing.Size(100, 20)
+        Me.txtEdad.Size = New System.Drawing.Size(116, 22)
         Me.txtEdad.TabIndex = 7
         '
         'txtSexo
         '
-        Me.txtSexo.Location = New System.Drawing.Point(129, 164)
+        Me.txtSexo.Location = New System.Drawing.Point(172, 139)
         Me.txtSexo.Name = "txtSexo"
-        Me.txtSexo.Size = New System.Drawing.Size(100, 20)
+        Me.txtSexo.Size = New System.Drawing.Size(116, 22)
         Me.txtSexo.TabIndex = 8
         '
         'txtSueldo
         '
-        Me.txtSueldo.Location = New System.Drawing.Point(129, 225)
+        Me.txtSueldo.Location = New System.Drawing.Point(172, 180)
         Me.txtSueldo.Name = "txtSueldo"
-        Me.txtSueldo.Size = New System.Drawing.Size(100, 20)
+        Me.txtSueldo.Size = New System.Drawing.Size(116, 22)
         Me.txtSueldo.TabIndex = 9
+        '
+        'lblTituloEmpl
+        '
+        Me.lblTituloEmpl.AutoSize = True
+        Me.lblTituloEmpl.Font = New System.Drawing.Font("Times New Roman", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTituloEmpl.Location = New System.Drawing.Point(81, 9)
+        Me.lblTituloEmpl.Name = "lblTituloEmpl"
+        Me.lblTituloEmpl.Size = New System.Drawing.Size(183, 19)
+        Me.lblTituloEmpl.TabIndex = 10
+        Me.lblTituloEmpl.Text = "AGREGAR EMPLEADO"
+        '
+        'btnGuardar
+        '
+        Me.btnGuardar.Flip = FontAwesome.Sharp.FlipOrientation.Normal
+        Me.btnGuardar.IconChar = FontAwesome.Sharp.IconChar.UserCheck
+        Me.btnGuardar.IconColor = System.Drawing.Color.Black
+        Me.btnGuardar.IconSize = 30
+        Me.btnGuardar.Location = New System.Drawing.Point(58, 227)
+        Me.btnGuardar.Name = "btnGuardar"
+        Me.btnGuardar.Rotation = 0R
+        Me.btnGuardar.Size = New System.Drawing.Size(230, 40)
+        Me.btnGuardar.TabIndex = 11
+        Me.btnGuardar.Text = "Guardar"
+        Me.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.btnGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnGuardar.UseVisualStyleBackColor = True
         '
         'FrmEmpleados
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(307, 400)
+        Me.ClientSize = New System.Drawing.Size(350, 299)
+        Me.Controls.Add(Me.btnGuardar)
+        Me.Controls.Add(Me.lblTituloEmpl)
         Me.Controls.Add(Me.txtSueldo)
         Me.Controls.Add(Me.txtSexo)
         Me.Controls.Add(Me.txtEdad)
@@ -119,14 +139,14 @@ Partial Class FrmEmpleados
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.btnGuardar)
+        Me.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "FrmEmpleados"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Empleados"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents btnGuardar As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
@@ -135,4 +155,6 @@ Partial Class FrmEmpleados
     Friend WithEvents txtEdad As TextBox
     Friend WithEvents txtSexo As TextBox
     Friend WithEvents txtSueldo As TextBox
+    Friend WithEvents lblTituloEmpl As Label
+    Friend WithEvents btnGuardar As FontAwesome.Sharp.IconButton
 End Class

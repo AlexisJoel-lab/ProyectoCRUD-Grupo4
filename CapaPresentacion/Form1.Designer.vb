@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,21 +20,19 @@ Partial Class Form1
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.PanelMenuIzq = New System.Windows.Forms.Panel()
-        Me.btnBiblioteca = New System.Windows.Forms.Button()
-        Me.btnMatricula = New System.Windows.Forms.Button()
-        Me.btnHorarios = New System.Windows.Forms.Button()
-        Me.btnCursos = New System.Windows.Forms.Button()
-        Me.btnInicio = New System.Windows.Forms.Button()
+        Me.btnProductos = New FontAwesome.Sharp.IconButton()
+        Me.btnClientes = New FontAwesome.Sharp.IconButton()
+        Me.btnEmpleados = New FontAwesome.Sharp.IconButton()
         Me.PanelLogo = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.btnEditar = New System.Windows.Forms.Button()
-        Me.btnEliminar = New System.Windows.Forms.Button()
-        Me.btnNuevo = New System.Windows.Forms.Button()
+        Me.btnEliminar = New FontAwesome.Sharp.IconButton()
+        Me.btnEditar = New FontAwesome.Sharp.IconButton()
+        Me.btnNuevo = New FontAwesome.Sharp.IconButton()
         Me.DgvEmpleado = New System.Windows.Forms.DataGridView()
         Me.PanelMenuIzq.SuspendLayout()
         Me.PanelLogo.SuspendLayout()
@@ -46,11 +44,9 @@ Partial Class Form1
         'PanelMenuIzq
         '
         Me.PanelMenuIzq.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.PanelMenuIzq.Controls.Add(Me.btnBiblioteca)
-        Me.PanelMenuIzq.Controls.Add(Me.btnMatricula)
-        Me.PanelMenuIzq.Controls.Add(Me.btnHorarios)
-        Me.PanelMenuIzq.Controls.Add(Me.btnCursos)
-        Me.PanelMenuIzq.Controls.Add(Me.btnInicio)
+        Me.PanelMenuIzq.Controls.Add(Me.btnProductos)
+        Me.PanelMenuIzq.Controls.Add(Me.btnClientes)
+        Me.PanelMenuIzq.Controls.Add(Me.btnEmpleados)
         Me.PanelMenuIzq.Controls.Add(Me.PanelLogo)
         Me.PanelMenuIzq.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelMenuIzq.Location = New System.Drawing.Point(0, 0)
@@ -58,60 +54,53 @@ Partial Class Form1
         Me.PanelMenuIzq.Size = New System.Drawing.Size(811, 53)
         Me.PanelMenuIzq.TabIndex = 1
         '
-        'btnBiblioteca
+        'btnProductos
         '
-        Me.btnBiblioteca.Dock = System.Windows.Forms.DockStyle.Left
-        Me.btnBiblioteca.Location = New System.Drawing.Point(704, 0)
-        Me.btnBiblioteca.Name = "btnBiblioteca"
-        Me.btnBiblioteca.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.btnBiblioteca.Size = New System.Drawing.Size(120, 53)
-        Me.btnBiblioteca.TabIndex = 6
-        Me.btnBiblioteca.Text = "Biblioteca"
-        Me.btnBiblioteca.UseVisualStyleBackColor = True
+        Me.btnProductos.Dock = System.Windows.Forms.DockStyle.Left
+        Me.btnProductos.Flip = FontAwesome.Sharp.FlipOrientation.Normal
+        Me.btnProductos.IconChar = FontAwesome.Sharp.IconChar.Tag
+        Me.btnProductos.IconColor = System.Drawing.Color.Black
+        Me.btnProductos.IconSize = 35
+        Me.btnProductos.Location = New System.Drawing.Point(464, 0)
+        Me.btnProductos.Name = "btnProductos"
+        Me.btnProductos.Rotation = 0R
+        Me.btnProductos.Size = New System.Drawing.Size(120, 53)
+        Me.btnProductos.TabIndex = 3
+        Me.btnProductos.Text = "Productos"
+        Me.btnProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnProductos.UseVisualStyleBackColor = True
         '
-        'btnMatricula
+        'btnClientes
         '
-        Me.btnMatricula.Dock = System.Windows.Forms.DockStyle.Left
-        Me.btnMatricula.Location = New System.Drawing.Point(584, 0)
-        Me.btnMatricula.Name = "btnMatricula"
-        Me.btnMatricula.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.btnMatricula.Size = New System.Drawing.Size(120, 53)
-        Me.btnMatricula.TabIndex = 5
-        Me.btnMatricula.Text = "Matrícula"
-        Me.btnMatricula.UseVisualStyleBackColor = True
+        Me.btnClientes.Dock = System.Windows.Forms.DockStyle.Left
+        Me.btnClientes.Flip = FontAwesome.Sharp.FlipOrientation.Normal
+        Me.btnClientes.IconChar = FontAwesome.Sharp.IconChar.AddressBook
+        Me.btnClientes.IconColor = System.Drawing.Color.Black
+        Me.btnClientes.IconSize = 35
+        Me.btnClientes.Location = New System.Drawing.Point(344, 0)
+        Me.btnClientes.Name = "btnClientes"
+        Me.btnClientes.Rotation = 0R
+        Me.btnClientes.Size = New System.Drawing.Size(120, 53)
+        Me.btnClientes.TabIndex = 2
+        Me.btnClientes.Text = "Clientes"
+        Me.btnClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnClientes.UseVisualStyleBackColor = True
         '
-        'btnHorarios
+        'btnEmpleados
         '
-        Me.btnHorarios.Dock = System.Windows.Forms.DockStyle.Left
-        Me.btnHorarios.Location = New System.Drawing.Point(464, 0)
-        Me.btnHorarios.Name = "btnHorarios"
-        Me.btnHorarios.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.btnHorarios.Size = New System.Drawing.Size(120, 53)
-        Me.btnHorarios.TabIndex = 4
-        Me.btnHorarios.Text = "Horarios"
-        Me.btnHorarios.UseVisualStyleBackColor = True
-        '
-        'btnCursos
-        '
-        Me.btnCursos.Dock = System.Windows.Forms.DockStyle.Left
-        Me.btnCursos.Location = New System.Drawing.Point(344, 0)
-        Me.btnCursos.Name = "btnCursos"
-        Me.btnCursos.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.btnCursos.Size = New System.Drawing.Size(120, 53)
-        Me.btnCursos.TabIndex = 3
-        Me.btnCursos.Text = "Mis Cursos"
-        Me.btnCursos.UseVisualStyleBackColor = True
-        '
-        'btnInicio
-        '
-        Me.btnInicio.Dock = System.Windows.Forms.DockStyle.Left
-        Me.btnInicio.Location = New System.Drawing.Point(224, 0)
-        Me.btnInicio.Name = "btnInicio"
-        Me.btnInicio.Padding = New System.Windows.Forms.Padding(10, 0, 20, 0)
-        Me.btnInicio.Size = New System.Drawing.Size(120, 53)
-        Me.btnInicio.TabIndex = 2
-        Me.btnInicio.Text = "Empleados"
-        Me.btnInicio.UseVisualStyleBackColor = True
+        Me.btnEmpleados.Dock = System.Windows.Forms.DockStyle.Left
+        Me.btnEmpleados.Flip = FontAwesome.Sharp.FlipOrientation.Normal
+        Me.btnEmpleados.IconChar = FontAwesome.Sharp.IconChar.Users
+        Me.btnEmpleados.IconColor = System.Drawing.Color.Black
+        Me.btnEmpleados.IconSize = 35
+        Me.btnEmpleados.Location = New System.Drawing.Point(224, 0)
+        Me.btnEmpleados.Name = "btnEmpleados"
+        Me.btnEmpleados.Rotation = 0R
+        Me.btnEmpleados.Size = New System.Drawing.Size(120, 53)
+        Me.btnEmpleados.TabIndex = 1
+        Me.btnEmpleados.Text = "Empleados"
+        Me.btnEmpleados.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnEmpleados.UseVisualStyleBackColor = True
         '
         'PanelLogo
         '
@@ -136,8 +125,8 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.HotTrack
-        Me.Panel1.Controls.Add(Me.btnEditar)
         Me.Panel1.Controls.Add(Me.btnEliminar)
+        Me.Panel1.Controls.Add(Me.btnEditar)
         Me.Panel1.Controls.Add(Me.btnNuevo)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 53)
@@ -145,31 +134,49 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(811, 50)
         Me.Panel1.TabIndex = 2
         '
-        'btnEditar
-        '
-        Me.btnEditar.Location = New System.Drawing.Point(724, 14)
-        Me.btnEditar.Name = "btnEditar"
-        Me.btnEditar.Size = New System.Drawing.Size(75, 23)
-        Me.btnEditar.TabIndex = 2
-        Me.btnEditar.Text = "Editar"
-        Me.btnEditar.UseVisualStyleBackColor = True
-        '
         'btnEliminar
         '
-        Me.btnEliminar.Location = New System.Drawing.Point(368, 14)
+        Me.btnEliminar.Flip = FontAwesome.Sharp.FlipOrientation.Normal
+        Me.btnEliminar.IconChar = FontAwesome.Sharp.IconChar.UserTimes
+        Me.btnEliminar.IconColor = System.Drawing.Color.Black
+        Me.btnEliminar.IconSize = 25
+        Me.btnEliminar.Location = New System.Drawing.Point(674, 8)
         Me.btnEliminar.Name = "btnEliminar"
-        Me.btnEliminar.Size = New System.Drawing.Size(75, 23)
-        Me.btnEliminar.TabIndex = 1
+        Me.btnEliminar.Rotation = 0R
+        Me.btnEliminar.Size = New System.Drawing.Size(84, 34)
+        Me.btnEliminar.TabIndex = 8
         Me.btnEliminar.Text = "Eliminar"
+        Me.btnEliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnEliminar.UseVisualStyleBackColor = True
+        '
+        'btnEditar
+        '
+        Me.btnEditar.Flip = FontAwesome.Sharp.FlipOrientation.Normal
+        Me.btnEditar.IconChar = FontAwesome.Sharp.IconChar.UserEdit
+        Me.btnEditar.IconColor = System.Drawing.Color.Black
+        Me.btnEditar.IconSize = 25
+        Me.btnEditar.Location = New System.Drawing.Point(344, 8)
+        Me.btnEditar.Name = "btnEditar"
+        Me.btnEditar.Rotation = 0R
+        Me.btnEditar.Size = New System.Drawing.Size(84, 34)
+        Me.btnEditar.TabIndex = 7
+        Me.btnEditar.Text = "Editar"
+        Me.btnEditar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnEditar.UseVisualStyleBackColor = True
         '
         'btnNuevo
         '
-        Me.btnNuevo.Location = New System.Drawing.Point(51, 15)
+        Me.btnNuevo.Flip = FontAwesome.Sharp.FlipOrientation.Normal
+        Me.btnNuevo.IconChar = FontAwesome.Sharp.IconChar.UserPlus
+        Me.btnNuevo.IconColor = System.Drawing.Color.Black
+        Me.btnNuevo.IconSize = 25
+        Me.btnNuevo.Location = New System.Drawing.Point(67, 8)
         Me.btnNuevo.Name = "btnNuevo"
-        Me.btnNuevo.Size = New System.Drawing.Size(75, 23)
-        Me.btnNuevo.TabIndex = 0
+        Me.btnNuevo.Rotation = 0R
+        Me.btnNuevo.Size = New System.Drawing.Size(84, 34)
+        Me.btnNuevo.TabIndex = 6
         Me.btnNuevo.Text = "Nuevo"
+        Me.btnNuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnNuevo.UseVisualStyleBackColor = True
         '
         'DgvEmpleado
@@ -190,6 +197,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PanelMenuIzq)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CRUD Básico"
         Me.PanelMenuIzq.ResumeLayout(False)
         Me.PanelLogo.ResumeLayout(False)
@@ -203,13 +211,11 @@ Partial Class Form1
     Friend WithEvents Panel1 As Panel
     Friend WithEvents PanelLogo As Panel
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents btnInicio As Button
-    Friend WithEvents btnMatricula As Button
-    Friend WithEvents btnHorarios As Button
-    Friend WithEvents btnCursos As Button
-    Friend WithEvents btnBiblioteca As Button
-    Friend WithEvents btnEditar As Button
-    Friend WithEvents btnEliminar As Button
-    Friend WithEvents btnNuevo As Button
     Friend WithEvents DgvEmpleado As DataGridView
+    Friend WithEvents btnEmpleados As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnProductos As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnClientes As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnNuevo As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnEliminar As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnEditar As FontAwesome.Sharp.IconButton
 End Class

@@ -1,0 +1,284 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "FontAwesome.Sharp/5.12.1": {
+        "type": "package",
+        "compile": {
+          "lib/net472/FontAwesome.Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/net472/FontAwesome.Sharp.dll": {}
+        }
+      },
+      "CapaDatos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaDatos.dll": {}
+        }
+      },
+      "CapaEntidad/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        }
+      },
+      "CapaNegocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaDatos": "1.0.0",
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaNegocio.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "FontAwesome.Sharp/5.12.1": {
+        "type": "package",
+        "compile": {
+          "lib/net472/FontAwesome.Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/net472/FontAwesome.Sharp.dll": {}
+        }
+      },
+      "CapaDatos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaDatos.dll": {}
+        }
+      },
+      "CapaEntidad/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        }
+      },
+      "CapaNegocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaDatos": "1.0.0",
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaNegocio.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "FontAwesome.Sharp/5.12.1": {
+        "type": "package",
+        "compile": {
+          "lib/net472/FontAwesome.Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/net472/FontAwesome.Sharp.dll": {}
+        }
+      },
+      "CapaDatos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaDatos.dll": {}
+        }
+      },
+      "CapaEntidad/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        }
+      },
+      "CapaNegocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaDatos": "1.0.0",
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaNegocio.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "FontAwesome.Sharp/5.12.1": {
+        "type": "package",
+        "compile": {
+          "lib/net472/FontAwesome.Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/net472/FontAwesome.Sharp.dll": {}
+        }
+      },
+      "CapaDatos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaDatos.dll": {}
+        }
+      },
+      "CapaEntidad/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        }
+      },
+      "CapaNegocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaDatos": "1.0.0",
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaNegocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FontAwesome.Sharp/5.12.1": {
+      "sha512": "VqlOb3A2Q61zxSw2KPNT0B7JTp9c2hhgtyNJSY3ypZs0k/aiirvKiV3OM7MZLS2Ko/UeJ9PwmxFRVo6fCgsh5Q==",
+      "type": "package",
+      "path": "fontawesome.sharp/5.12.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontawesome.sharp.5.12.1.nupkg.sha512",
+        "fontawesome.sharp.nuspec",
+        "lib/net40/FontAwesome.Sharp.dll",
+        "lib/net45/FontAwesome.Sharp.dll",
+        "lib/net472/FontAwesome.Sharp.dll",
+        "lib/net48/FontAwesome.Sharp.dll",
+        "lib/netcoreapp3.0/FontAwesome.Sharp.dll"
+      ]
+    },
+    "CapaDatos/1.0.0": {
+      "type": "project",
+      "path": "../CapaDatos/CapaDatos.vbproj",
+      "msbuildProject": "../CapaDatos/CapaDatos.vbproj"
+    },
+    "CapaEntidad/1.0.0": {
+      "type": "project",
+      "path": "../CapaEntidad/CapaEntidad.vbproj",
+      "msbuildProject": "../CapaEntidad/CapaEntidad.vbproj"
+    },
+    "CapaNegocio/1.0.0": {
+      "type": "project",
+      "path": "../CapaNegocio/CapaNegocio.vbproj",
+      "msbuildProject": "../CapaNegocio/CapaNegocio.vbproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "CapaEntidad >= 1.0.0",
+      "CapaNegocio >= 1.0.0",
+      "FontAwesome.Sharp >= 5.12.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ALEXIS\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaPresentacion\\CapaPresentacion.vbproj",
+      "projectName": "CapaPresentacion",
+      "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaPresentacion\\CapaPresentacion.vbproj",
+      "packagesPath": "C:\\Users\\ALEXIS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaPresentacion\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\ALEXIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\Paquete _Nuget": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaEntidad\\CapaEntidad.vbproj": {
+              "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaEntidad\\CapaEntidad.vbproj"
+            },
+            "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaNegocio\\CapaNegocio.vbproj": {
+              "projectPath": "C:\\Users\\ALEXIS\\Source\\Repos\\ProyectoCRUD-Grupo4\\CapaNegocio\\CapaNegocio.vbproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "FontAwesome.Sharp": {
+            "target": "Package",
+            "version": "[5.12.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
