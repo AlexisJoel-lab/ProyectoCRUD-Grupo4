@@ -43,3 +43,4 @@ C:\Users\User\Documents\GitHub\ProyectoCRUD-Grupo4\CapaPresentacion\obj\Debug\Ca
 C:\Users\User\Documents\GitHub\ProyectoCRUD-Grupo4\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\User\Documents\GitHub\ProyectoCRUD-Grupo4\CapaPresentacion\obj\Debug\CapaPresentacion.xml
 C:\Users\User\Documents\GitHub\ProyectoCRUD-Grupo4\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\User\Documents\GitHub\ProyectoCRUD-Grupo4\CapaPresentacion\obj\Debug\CapaPresentacion.FrmNuevo.resources

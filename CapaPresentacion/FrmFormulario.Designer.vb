@@ -32,7 +32,7 @@ Partial Class FrmFormulario
         'DgvEmpleado
         '
         Me.DgvEmpleado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DgvEmpleado.Location = New System.Drawing.Point(12, 166)
+        Me.DgvEmpleado.Location = New System.Drawing.Point(12, 160)
         Me.DgvEmpleado.Name = "DgvEmpleado"
         Me.DgvEmpleado.Size = New System.Drawing.Size(627, 169)
         Me.DgvEmpleado.TabIndex = 0

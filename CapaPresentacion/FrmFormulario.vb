@@ -8,4 +8,9 @@ Public Class FrmFormulario
         Dim dt As DataTable = objNego.N_Listar
         DgvEmpleado.DataSource = dt
     End Sub
+
+    Private Sub btnNuevo_Click(sender As Object, e As EventArgs) Handles btnNuevo.Click
+        Dim frmnuevo As New FrmNuevo
+        frmnuevo.ShowDialog()
+    End Sub
 End Class
