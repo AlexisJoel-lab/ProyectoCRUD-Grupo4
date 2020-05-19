@@ -15,6 +15,10 @@ Public Class FrmNuevo
         objEnt.sueldoEmp = TextBox4.Text
         objNeg.N_insertEmpleados(objEnt)
         MessageBox.Show("Datos insertados correctamente")
+        Dim frmempleado As New FrmFormulario
+        frmempleado.ShowDialog()
         Me.Close()
+
+
     End Sub
 End Class

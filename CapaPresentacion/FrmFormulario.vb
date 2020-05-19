@@ -10,7 +10,11 @@ Public Class FrmFormulario
     End Sub
 
     Private Sub btnNuevo_Click(sender As Object, e As EventArgs) Handles btnNuevo.Click
+
+        Me.Close()
         Dim frmnuevo As New FrmNuevo
         frmnuevo.ShowDialog()
+
+
     End Sub
 End Class
