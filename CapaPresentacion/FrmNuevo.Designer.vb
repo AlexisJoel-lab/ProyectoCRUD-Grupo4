@@ -100,7 +100,7 @@ Partial Class FrmNuevo
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(93, 202)
+        Me.Button1.Location = New System.Drawing.Point(93, 191)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 23)
         Me.Button1.TabIndex = 8
